@@ -1,0 +1,214 @@
+{
+  "interceptor": {
+    "interceptor_lang": "en-US"
+  },
+  "auth": {
+    "login": {
+      "page": "Login Page",
+      "welcome": "Welcome Back!",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "no_account": "Don't have an account?",
+      "register_link": "Register"
+    },
+    "register": {
+      "page": "Register Page",
+      "title": "Please fill out the form to register!",
+      "submit": "Register",
+      "loading": "Registering...",
+      "has_account": "Yes, I have an account?",
+      "login_link": "Login"
+    },
+    "fields": {
+      "login": "Username:",
+      "email": "Email:",
+      "password": "Password:",
+      "confirm_password": "Confirm Password:"
+    },
+    "errors": {
+      "login_failed": "Invalid username or password",
+      "register_failed": "Could not register, please try again",
+      "password_mismatch": "Passwords do not match"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "login_min": "Username must be at least 3 characters",
+    "login_max": "Username must be at most 32 characters",
+    "login_format": "Username can only contain letters, numbers, dots and underscores",
+    "email_invalid": "Please enter a valid email address",
+    "password_min": "Password must be at least 6 characters",
+    "password_mismatch": "Passwords do not match"
+  },
+  "user_menu": {
+    "account": "My account",
+    "logout": "Log out",
+    "logging_out": "Logging out..."
+  },
+  "main": {
+    "header": "Films",
+    "title_filter": "title",
+    "vote_average_filter": "average vote",
+    "all_genres_filters": "All genres",
+    "reset_button": "Reset",
+    "watch_now": "Watch now",
+    "trending": "Trending",
+    "previous": "Previous",
+    "next": "Next",
+    "filters": "Filters",
+    "top_rated": "Top rated films",
+    "top_series": "Top rated series"
+  },
+  "series": {
+    "header": "Series"
+  },
+  "sidebar": {
+    "home": "Home",
+    "trending": "Trending",
+    "coming_soon": "Coming soon",
+    "community": "Community",
+    "watchlist": "Watchlist",
+    "settings": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "about_us": "About Us",
+    "films_page": "Films",
+    "series_page": "Series",
+    "film_random": "Film Randomizer",
+    "series_random": "Series Randomizer",
+    "main_page": "Main",
+    "favorites": "Favorites"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "subtitle": "Movies and series you've saved",
+    "empty_title": "No favorites yet",
+    "empty_subtitle": "Tap the heart icon on any movie or series to save it here"
+  },
+  "footer": {
+    "tagline": "Simple movie and series navigation for everyday watching.",
+    "about_us": "About Us",
+    "countact_us": "Countact Us"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "switch_to_english": "Switch language to English",
+    "switch_to_ukrainian": "Switch language to Ukrainian"
+  },
+  "empty": {
+    "no_films": "No films found",
+    "no_series": "No series found"
+  },
+  "details": {
+    "film_not_found": "Film not found",
+    "series_not_found": "Series not found",
+    "overview": "Overview",
+    "no_overview": "No overview available."
+  },
+  "film_randomizer": {
+    "header": "Film Randomizer",
+    "caption": "Can't decide what to watch? Let fate choose.",
+    "button": "Pick a random movie",
+    "button_rolling": "Rolling the dice...",
+    "view_detail": "View details",
+    "selecting": "Now Selecting"
+  },
+  "series_randomizer": {
+    "header": "Series Randomizer",
+    "caption": "Can't decide what to watch? Let fate choose.",
+    "button": "Pick a random series",
+    "button_rolling": "Rolling the dice...",
+    "view_detail": "View details",
+    "selecting": "Now Selecting"
+  },
+  "genres": {
+    "28": "Action",
+    "12": "Adventure",
+    "16": "Animation",
+    "35": "Comedy",
+    "80": "Crime",
+    "99": "Documentary",
+    "18": "Drama",
+    "10751": "Family",
+    "14": "Fantasy",
+    "36": "History",
+    "27": "Horror",
+    "10402": "Music",
+    "9648": "Mystery",
+    "10749": "Romance",
+    "878": "Sci-Fi",
+    "10770": "TV Movie",
+    "53": "Thriller",
+    "10752": "War",
+    "37": "Western"
+  },
+  "project": {
+    "back": "Back"
+  },
+  "aboutUs": {
+    "header": "ABOUT US",
+    "main": "We are an education-based team from Ukraine. This React project was made by people for people.",
+    "paragraphs": {
+      "first": "CineApp is a learning project created to make choosing a film or series easier, faster, and more enjoyable. The application brings together catalog pages, detailed screens, filters, and randomizers so viewers can move from browsing to watching without getting stuck in endless searching.",
+      "second": "The project is built as a practical React application, so every page is also a small exercise in clean components, routing, state, API requests, styling, and user experience. We focus on making the interface simple enough for a first visit, but useful enough to return to when you need a quick recommendation.",
+      "third": "Our goal is to keep improving the app step by step: better search, clearer pages, more helpful filters, stronger responsive design, and a friendlier path from curiosity to a good movie night."
+    },
+    "cards": {
+      "build_title": "What we build",
+      "build_text": "A comfortable movie discovery space with filters, random picks, and detailed pages.",
+      "matters_title": "Why it matters",
+      "matters_text": "Good recommendations save time and make the choice feel lighter."
+    },
+    "stats": {
+      "catalog": "films and series",
+      "ideas": "ideas for watching",
+      "interface": "modern interface",
+      "data": "movie data"
+    }
+  },
+  "contactUs": {
+    "header": "Contact us",
+    "visit_us": "Visit us",
+    "contact": "Contact",
+    "image_alt": "Person typing on laptop"
+  },
+  "apiDocs": {
+    "back": "Back to app",
+    "header": "API Docs",
+    "subtitle": "REST API reference for the Film service (TMDB)",
+    "description": "API for working with films through TMDB. It supports filtering by genre and rating, plus loading full movie details.",
+    "base_url": "Base URL",
+    "auth": "Auth",
+    "query_params": "Query params",
+    "response": "Response",
+    "or": "or",
+    "sections": {
+      "types": "Types",
+      "endpoints": "Endpoints",
+      "hooks": "React Query Hooks",
+      "helpers": "Helpers",
+      "errors": "Error handling"
+    },
+    "endpoints": {
+      "discover": "Returns movies filtered by genre and/or minimum rating.",
+      "details": "Returns full details for a single movie, including runtime and named genres."
+    },
+    "hooks": {
+      "film_query": "Fetches popular or filtered movies for a given page. Query key: ['popularFilms', page, filters].",
+      "film_by_id": "Fetches full details for a single movie. Query key: ['film', id]."
+    },
+    "helpers": {
+      "poster": "Builds a full poster or backdrop image URL. Size is one of",
+      "genres": "Returns the static genre list mapped to translated names via i18n."
+    },
+    "errors_intro": "All errors are thrown from the Axios interceptor as",
+    "errors": {
+      "401": "Invalid or missing API key. Check VITE_TMDB_API_KEY in .env.",
+      "404": "Movie not found. The app renders the empty state in Film.tsx.",
+      "429": "Rate limit exceeded. TMDB free tier allows about 40 requests per 10 seconds.",
+      "500": "Server error. It is surfaced through the query error state."
+    }
+  }
+}
